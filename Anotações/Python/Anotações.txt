@@ -1,0 +1,54 @@
+	Anotações
+# Tipagem dinamica, não precisa ficar especificando o tipo de cada variavel 
+# apenas um = é apenas uma atribuição a uma variavel
+# CTRL ALT N - Rodar código
+# algoritmo = entrada /saida /processamento/ objetivo
+# Input - comando para entrada de dados do usuario
+# ** calcula o quadrado do número
+# os.system('cls') - limpar o terminal, quando o terminal for windows ('clear')
+# .upper - 
+# [0] - lista
+# \n - quebra de linha
+# print(30*'=') ==========
+# pip install pandas - Instalar biblioteca do panda
+# python -m venv NOME - instalar ambiente virtual
+# rm -rf NOME - Apagar ambiente virtual
+# source NOME/Scripts Activate - entrar nas pastas
+# deactivate - desativar ambiente virtual configurado
+# pip install openpyxl - instalar pacote para ler arquivos em xlxs
+# pip freeze
+# pip install numpy
+
+
+	Variavéis
+# string - cadeia de caracteres 
+# int - Números inteiros
+# float - flutuante (números reais, com virgula)
+# bool - True or false
+
+	Operadores aritmeticos
+
+# + soma
+# - subtrair
+# * multiplicar
+# / divisão
+# % porcentagem resto da divisão
+# / / parte inteira da divisão
+
+
+	Operadores condicionais 
+
+
+# >= maior ou igual
+# <= menor ou igual
+# == igualdade
+# != diferente de
+		
+		lista Index
+
+.insert - insere elemento na lista com posição definida
+.index - caso o elemento exista, verifica posição do elemento dentro da lista
+.remove - remover o primerio elemento especificado da lista 
+.pop - remove atraves do indice da posição
+.len conta o tamanho da lista 
+

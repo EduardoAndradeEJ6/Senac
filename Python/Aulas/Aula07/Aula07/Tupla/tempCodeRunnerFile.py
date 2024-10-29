@@ -1,0 +1,1 @@
+print(tupla_varios_elementos)

@@ -1,0 +1,26 @@
+Ingredientes:
+
+	Pão de forma
+	Geleia de morango
+	Manteiga de amendoim
+
+
+Modo de preparo:
+
+		1: Pegar o pão
+		2: Abrir saco de pão
+		3: Separar os pães que serão utilizados
+		4: Pegar Fatia que ficará por baixo
+		5: Pegar faca que será utilizada
+		6: Abrir a geleia de morango
+		7: Passar a faca na geleia de morango
+		8: Passar geleia de morango no pão
+		9: fechar pote de geleia de morango
+		10: Abrir manteiga de amendoim
+		11: Passar a faca na manteiga de amendoim
+		12: Passar manteiga de ammendoim no pão
+		13: fechar pote de manteiga de amendoim
+		14: Pegar outra fatia e fechar o pão
+		15: Saborear!
+
+

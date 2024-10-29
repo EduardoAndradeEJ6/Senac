@@ -1,0 +1,41 @@
+	-----Git Hub-----
+
+Git init - iniciar repositorio
+
+Git Config --global user.name EduardoAndradeEJ6 - configurar usuario
+
+git config --global user.email contato.eduardo.ti@gmail.com - configurar email
+
+git remote add origin https://github.com/EduardoAndradeEJ6/EduardoAula01.git - configurar URL criada
+
+git remote remove origin - Apaga o caminho do diretorio remoto 
+
+git pull - baixar arquivos da web 
+
+git status - status dos arquivos 
+
+git add . - subir todos os arquivos
+
+git commit "Aula 01" - -m mensagem e sempre colocar ""
+
+git push origin master/main - subir arquivos para a web
+
+git restore --staged nome do arquivo- retirar o arquivo
+ o
+$ git checkout -b main - sair e criar outra brunch
+
+$ git config --global --unset user.name - desconfigurar nome de usuario no git
+
+$ git config --global --unset user.mail - desconfigurar email no git
+
+	-----Git Hub Terminal-----
+
+cd.. - sair da pasta
+
+cd nomedaPasta/ - entrar na pasta 
+
+LS - mostra oq tem dentro da pasta 
+ 
+git show - mostra ultimo comentario e alterações feitas
+
+git log - mostra uma lista com os ultimos comentarios, com historico

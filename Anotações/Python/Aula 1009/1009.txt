@@ -1,0 +1,8 @@
+Programa de computador
+
+Oq esses conceitos significam para você?
+
+Conjunto de funcionalidades, determinadas para uma tarefa em especifico.
+
+
+Funcionalidades do phyton - 
