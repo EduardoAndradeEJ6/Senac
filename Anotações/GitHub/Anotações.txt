@@ -6,7 +6,7 @@ Git Config --global user.name EduardoAndradeEJ6 - configurar usuario
 
 git config --global user.email contato.eduardo.ti@gmail.com - configurar email
 
-git remote add origin https://github.com/EduardoAndradeEJ6/EduardoAula01.git - configurar URL criada
+git remote add origin https://github.com/EduardoAndradeEJ6/Senac.git - configurar URL criada
 
 git remote remove origin - Apaga o caminho do diretorio remoto 
 
@@ -39,3 +39,5 @@ LS - mostra oq tem dentro da pasta
 git show - mostra ultimo comentario e alterações feitas
 
 git log - mostra uma lista com os ultimos comentarios, com historico
+
+.gitignore - 

@@ -1,0 +1,17 @@
+	----- MYSQL -----
+
+/*conteudo*\ comentario
+
+mysql -h -r root -p - 
+
+create schema 'NOME' - criar bando de dados
+
+SELECT * FROM NOME;
+
+
+SELECT * colunas FROM tabela;
+
+
+----- Bibliotecas para conectar com Python -----
+
+pip install sqlalchemy pymysql
