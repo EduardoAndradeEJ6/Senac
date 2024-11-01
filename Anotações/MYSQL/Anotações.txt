@@ -12,6 +12,35 @@ SELECT * FROM NOME;
 SELECT * colunas FROM tabela;
 
 
+ALTER TABLE = alterar tabela
+
+MODIFY COLUMN = modificar coluna
+
+INT NOT NULL AUTO_INCREMENT = transformar em inteiro nulo automatico
+
+ADD PRIMARY KEY = adicionar chave primaria 
+
 ----- Bibliotecas para conectar com Python -----
 
 pip install sqlalchemy pymysql
+
+
+
+---------------- Scripts --------------------
+
+Chave primaria
+
+ALTER TABLE tb_usuarios
+
+MODIFY COLUMN id_usuario INT NOT NULL AUTO_INCREMENT,
+
+ADD PRIMARY KEY (id_usuario);
+
+
+Chave estrangeira
+
+ALTER TABLE tb_emprestimos
+
+ADD CONSTRAINT fk_usuario
+
+FOREIGN KEY (id_usuario) REFERENCES tb_usuarios(id_usuario);
