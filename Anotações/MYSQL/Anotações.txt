@@ -20,6 +20,8 @@ INT NOT NULL AUTO_INCREMENT = transformar em inteiro nulo automatico
 
 ADD PRIMARY KEY = adicionar chave primaria 
 
+INNER JOIN = Junçao interna
+
 ----- Bibliotecas para conectar com Python -----
 
 pip install sqlalchemy pymysql
