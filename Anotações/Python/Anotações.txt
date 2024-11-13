@@ -52,3 +52,7 @@
 .pop - remove atraves do indice da posição
 .len conta o tamanho da lista 
 
+
+		Ouliers
+
+Outliers - valor discrepante do padrão encontrado

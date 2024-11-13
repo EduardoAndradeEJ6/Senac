@@ -20,7 +20,7 @@ try:
 
 
 
-except Exception as e:
+except ImportError as e:
     print(f'Erro ao obter dados: {e}')
     exit()
 
@@ -43,7 +43,7 @@ try:
 
     
 
-except Exception as e:
+except ImportError as e:
     print(f'Erro ao obter informações sobre padrão de roubo de  veículos: {e}')
     exit()
 

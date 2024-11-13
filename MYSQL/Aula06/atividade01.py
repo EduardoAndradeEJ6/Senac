@@ -13,6 +13,8 @@ try:
 
     df_estelionato = df_estelionato.groupby(['munic']).sum(['estelionato']).reset_index()
 
+    
+
     print(f'Total de estelionato nos top 10  municipios {df_estelionato.head(10)}')
 
     array_estelionato = np.array(df_ocorrencias['estelionato'])
@@ -32,9 +34,11 @@ try:
 
     print(f'Distancia entre media e mediana {distancia_media_mediana}')
 
+    # print(df_total)
 
 
 
-except Exception as e:
+
+except ImportError as e:
     print(f'Erro ao obter dados: {e}')
     exit()
