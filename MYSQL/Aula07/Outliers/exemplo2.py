@@ -79,6 +79,24 @@ try:
     limite_inferior = abs (q1 - (1.5 * IQR))
     print(f' O limite inferior é: {limite_inferior}')
 
+    df_roubo_veiculo_outliers_inferiores = df_roubo_veiculo["roubo_veiculo"] < limite_inferior
+
+    df_roubo_veiculo_outliers_superiores = df_roubo_veiculo["roubo_veiculo"] > limite_superior
+
+    print(30 *'-')
+    print('\nMunicipios com outliers inferiores: ')
+    if len(df_roubo_veiculo_outliers_inferiores) == 0:
+        print('Não existem outliers inferiores!')
+    else:
+        print(df_roubo_veiculo_outliers_inferiores)
+
+
+    print('\nMunicipios com outliers superiores: ')
+    if len(df_roubo_veiculo_outliers_inferiores) == 0:
+        print('Não existem outliers superiores!')
+    else:
+        print(df_roubo_veiculo_outliers_superiores)
+
 
 
 except ImportError as e:
