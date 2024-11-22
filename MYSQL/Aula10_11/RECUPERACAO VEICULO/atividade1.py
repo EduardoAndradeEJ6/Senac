@@ -163,6 +163,8 @@ except Exception as e:
 
 try:
 
+
+
     plt.subplots(2, 2, figsize=(16, 7))
     plt.suptitle('Recuperação de Veículos', fontsize=20)
 
@@ -175,8 +177,19 @@ try:
     plt.axvline(mediana, color='y', linewidth=1)
 
     plt.subplot(2,2, 3)
+    plt.text(0.1, 0.11, f'Média: {media}', fontsize=12)
+    plt.text(0.1, 0.10, f'Mediana: {mediana}', fontsize=12)
     plt.text(0.1, 0.9, f'Média: {media}', fontsize=12)
     plt.text(0.1, 0.8, f'Mediana: {mediana}', fontsize=12)
+    plt.text(0.1, 0.7, f'Distância: {distancia_media_mediana}', fontsize=12)
+    plt.text(0.1, 0.6, f'Menor valor: {minimo}', fontsize=12) 
+    plt.text(0.1, 0.5, f'Limite inferior: {limite_inferior}', fontsize=12)
+    plt.text(0.1, 0.4, f'Q1: {q1}', fontsize=12)
+    plt.text(0.1, 0.3, f'Q3: {q3}', fontsize=12)
+    plt.text(0.1, 0.2, f'Limite superior: {limite_superior}', fontsize=12)
+    plt.text(0.1, 0.1, f'Maior valor: {maximo}', fontsize=12)
+    plt.text(0.1, 0.0, f'Amplitude Total: {amplitute_total}', fontsize=12)
+    plt.text(0.1, 0.5 f'Assimetria: {assimetria}', fontsize=12)
 
     
     plt.show()
